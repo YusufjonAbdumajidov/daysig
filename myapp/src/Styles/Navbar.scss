@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 header{
     width: 100%;
     border: 1px solid #111;
@@ -8,11 +8,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    user-select: none;
     .logo{
         font-size: 26px;
-        font-family: 'Mukta', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
         text-transform: uppercase;
         letter-spacing: 1.1px;
+        color: #d3d3d3;
     }
     ul{
         display: flex;
@@ -22,10 +24,40 @@ header{
             font-family: 'Kanit', sans-serif;
             font-size: 18px;
             text-transform: capitalize;
-            letter-spacing: 1.1px;
-            &:nth-child(6){
+            letter-spacing: 1.4px;
+            color: #c2c2c2;
+            &:nth-child(3){
+                margin-right: 50px;
+            }
+            &:nth-child(5){
                 margin-right: 0;
+                display: flex;
+                align-items: center;
+            }
+        }
+        select{
+            color: #fff;
+            border: none;
+            option{
+                color: #fff;
             }
         }
     }
+    .dropDown{
+        opacity: 0;
+        position: absolute;
+        border: 1px solid #fff;
+        right: 8%;
+        top: 90px;
+        flex-direction: column;
+        padding: 20px 18px;
+        transition: height 0.3s ease, opacity 0.3s ease;
+        li{
+            margin: 10px 0;
+        }
+    }
+    .showDropDown{
+       opacity: 1;
+    } 
 }
+
