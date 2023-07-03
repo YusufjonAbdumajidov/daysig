@@ -32,6 +32,19 @@ main{
             background-color: #001B4C;
             letter-spacing: 1.1px;
             margin-top: 26px;
+            display: flex;
+            align-items: center;
+            transition: all .4s ease-in-out;
+            &:hover{
+                .rightArrow{
+                    transition: all .4s ease-in-out;
+                    margin-left: 22px;
+                }
+            }
+            .rightArrow{
+                background: transparent;
+                margin-left: 14px;
+            }
         }
     }
     .showcase{
@@ -39,5 +52,6 @@ main{
             height: 500px;
             // border: 1px solid #fff;
         }
+        
     }
 }
