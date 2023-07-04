@@ -8,17 +8,6 @@ main{
     justify-content: space-between;
     align-items: center;
     font-family: 'Kanit', sans-serif;
-    // .circle{
-    //     height: 500px;
-    //     width: 500px;
-    //     background-color: rgba(36, 36, 36);
-    //     position: absolute;
-    //     left: -7%;
-    //     top: -7%;
-    //     border-radius: 50%;
-    //     filter: blur(8px);
-    //     z-index: -1;
-    // }
     .info{
         h1{
             font-size: 54px;
@@ -41,7 +30,8 @@ main{
             border-radius: 50px ;
             color: #fff;
             // border: 1px solid #fff;
-            background-color: #001B4C;
+            // background-color: #001B4C;
+            background-color: #498BF7;
             letter-spacing: 1.1px;
             margin-top: 26px;
             display: flex;
@@ -56,6 +46,30 @@ main{
             .rightArrow{
                 background: transparent;
                 margin-left: 14px;
+            }
+        }
+        .sponsors{
+            position: absolute;
+            transform: translateY(60px);
+            // border: 1px solid #fff;
+            display: flex;
+            
+            div{
+                display: flex;
+                flex-direction: column;
+                margin-right: 40px;
+                p{
+                    display: flex;
+                    align-items: center;
+                    margin-right: 20px;
+                    color: #c2c2c2;
+                    font-size: 16px;
+                    letter-spacing: 1.1px;
+                    text-transform: uppercase;
+                }
+                .sponsorIcon{
+                    margin-right: 6px;
+                }
             }
         }
     }
