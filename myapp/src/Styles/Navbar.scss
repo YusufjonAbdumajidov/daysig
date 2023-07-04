@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 header{
+    background-color: #111;
     width: 100%;
     border: 1px solid #111;
     height: 14vh;
@@ -28,6 +29,8 @@ header{
             color: #c2c2c2;
             &:nth-child(3){
                 margin-right: 50px;
+                display: flex;
+                align-items: center;
             }
             &:nth-child(5){
                 margin-right: 0;

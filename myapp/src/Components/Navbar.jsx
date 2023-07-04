@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BsGlobe2 } from "react-icons/bs";
+import { BsGlobe2, BsChevronDown, BsChevronUp } from "react-icons/bs";
 
 const Navbar = () => {
     const [ showDropdown, setShowDropdown ] = useState(false);
@@ -11,7 +11,7 @@ const Navbar = () => {
             <ul>
                 <li>about</li>
                 <li>signals</li>
-                <li onClick={() => setShowDropdown(!showDropdown)} >more</li>
+                <li onClick={() => setShowDropdown(!showDropdown)} >more {showDropdown ? <BsChevronUp /> : <BsChevronDown />  }  </li>
                 <ul className={showDropdown ? "dropDown showDropDown" : 'dropDown'}>
                   <li>registration</li>
                   <li>market</li>

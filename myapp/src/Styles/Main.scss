@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
 main{
+    background-color: #111;
     // border: 1px solid #ffff;
     padding: 0% 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Kanit', sans-serif;
+    // .circle{
+    //     height: 500px;
+    //     width: 500px;
+    //     background-color: rgba(36, 36, 36);
+    //     position: absolute;
+    //     left: -7%;
+    //     top: -7%;
+    //     border-radius: 50%;
+    //     filter: blur(8px);
+    //     z-index: -1;
+    // }
     .info{
         h1{
             font-size: 54px;
@@ -48,6 +60,9 @@ main{
         }
     }
     .showcase{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         img{
             height: 500px;
             // border: 1px solid #fff;
