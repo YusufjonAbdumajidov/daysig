@@ -11,13 +11,7 @@ const Navbar = () => {
             <ul>
                 <li>about</li>
                 <li>signals</li>
-                {/* <li onClick={() => setShowDropdown(!showDropdown)} >more {showDropdown ? <BsChevronUp /> : <BsChevronDown />  }  </li> */}
-                {/* <ul className={showDropdown ? "dropDown showDropDown" : 'dropDown'}>
-                  <li>registration</li>
-                  <li>market</li>
-                  <li>community</li>
-                  <li>resources</li>
-                </ul> */}
+               
                 
 
                 <div class="dropdown">
