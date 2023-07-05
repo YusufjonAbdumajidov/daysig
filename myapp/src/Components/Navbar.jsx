@@ -23,8 +23,6 @@ const Navbar = () => {
                   </div>
                 </div>
 
-                
-                {/* <li onClick={() => setChangeLanguage(!changeLanguage)} ><BsGlobe2 style={{marginRight: "6px"}}/> {changeLanguage ? "Ru" : "Eng"}</li> */}
             </ul>
         </nav>
 
