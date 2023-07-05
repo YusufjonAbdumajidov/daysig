@@ -53,6 +53,10 @@ header{
     .dropdown {
         position: relative;
         display: inline-block;
+        .moreBtn{
+            display: flex;
+            align-items: center;
+        }
       }
       
       .dropdown-content {

@@ -22,7 +22,7 @@ const Navbar = () => {
 
                 <div class="dropdown">
                   {/* <span>More</span> */}
-                  <li onClick={() => setShowDropdown(!showDropdown)} >more   </li>
+                  <li className='moreBtn' onClick={() => setShowDropdown(!showDropdown)} >more <BsChevronDown />   </li>
                   <div class="dropdown-content">
                     <li>registration</li>
                     <li>market</li>
