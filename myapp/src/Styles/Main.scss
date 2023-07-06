@@ -82,3 +82,110 @@ main{
         
     }
 }
+
+
+
+//Making responsive 
+@media (max-width: 1382px){
+    main{
+        background-color: red;
+        .info{
+            h1{
+                font-size: 44px;
+                line-height: 54px;
+            }
+            p{
+                font-size: 16px;
+            }
+            button{
+                font-size: 18px;
+            }
+        }
+        .sponsors{
+            p{
+                font-size: 16px;
+            }      
+        }
+        .showcase{
+            img{
+                height: 400px;
+            }
+        }
+        
+    }
+}
+
+@media (max-width: 1082px){
+    main{
+        background-color: green;
+        .info{
+            h1{
+                font-size: 40px;
+            }
+            p{
+                font-size: 16px;
+            }
+            button{
+                font-size: 18px;
+            }
+        }
+        .sponsors{
+            p{
+                font-size: 16px;
+            }      
+        }
+        .showcase{
+            img{
+                height: 350px;
+            }
+        }
+    }
+}
+
+@media (max-width: 982px){
+    main{
+        background-color: orange;
+        .info{
+            h1{
+                font-size: 30px;
+                line-height: 43px;
+            }
+            p{
+                font-size: 12px;
+            }
+            button{
+                font-size: 14px;
+            }
+        }
+        .sponsors{
+            div{
+                p{
+                    font-size: 10px;
+                }  
+            }    
+        }
+        .showcase{
+            img{
+                height: 330px;
+            }
+        }
+    }
+}
+
+@media (max-width: 882px){
+    main{
+        background-color: purple;
+        
+        .info{
+            h1{
+                font-size: 33px;
+                line-height: 34px;
+            }
+        }
+        .showcase{
+            img{
+                height: 300px;
+            }
+        }
+    }
+}
