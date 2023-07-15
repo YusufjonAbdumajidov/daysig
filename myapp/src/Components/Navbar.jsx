@@ -14,7 +14,7 @@ const Navbar = () => {
                
                 <div class="dropdown">
                   <li className='moreBtn' onClick={() => setShowDropdown(!showDropdown)} >more <BsChevronDown />   </li>
-                  <div class="dropdown-content">
+                  <div className="dropdown-content">
                     <li>registration</li>
                     <li>market</li>
                     <li>community</li>
