@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 .aboutContainer{
-    border: 1px solid #fff;
+    // border: 1px solid #fff;
     margin-top: 120px;
     padding: 5%  12%;
     display: flex;
     align-items: center;
     font-family: 'Kanit', sans-serif;
+    // background-color: rgb(30, 30, 30);
     section{
         h1{
             font-size: 34px;
@@ -31,6 +32,50 @@
         img{
             height: 370px;
             z-index: -1;
+        }
+        .dotsContainer{
+            position: absolute;
+            // border: 1px solid #fff;
+            height: 370px;
+            width: 670px;
+            background-color: rgb(17, 17, 17, .4);
+            span{
+                position: absolute;
+                width: 18px;
+                height: 18px;
+                // border: 1px solid #fff;
+                background-color: #498BF7;
+                border-radius: 50px;
+                z-index: 111;
+                &:nth-child(1){
+                    top: 100px;
+                    left: 100px;
+                }
+                &:nth-child(2){
+                    top: 200px;
+                    left: 450px;
+                }
+                &:nth-child(3){
+                    top: 300px;
+                    left: 200px;
+                }
+                &:nth-child(4){
+                    top: 50px;
+                    left: 220px;
+                }
+                &:nth-child(5){
+                    top: 150px;
+                    left: 320px;
+                }
+                &:nth-child(6){
+                    top: 70px;
+                    left: 360px;
+                }
+                &:nth-child(7){
+                    top: 70px;
+                    left: 460px;
+                }
+            }
         }
     }
 }

@@ -23,6 +23,15 @@ const About = () => {
           </div>
         </section>
         <section>
+          <div className="dotsContainer">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <img src={mapImage} alt="" />
         </section>
     </div>
