@@ -80,3 +80,19 @@
         }
     }
 }
+
+
+//Making responsive
+
+@media (max-width: 882px){
+    .aboutContainer{
+        flex-direction: column;
+        justify-content: center;
+        section{
+            text-align: center;
+            &:nth-child(2){
+                margin-top: 90px;
+            }
+        }
+    }
+}
