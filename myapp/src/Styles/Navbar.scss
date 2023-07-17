@@ -53,6 +53,7 @@ header{
     .dropdown {
         position: relative;
         display: inline-block;
+        z-index: 111;
         .moreBtn{
             display: flex;
             align-items: center;
