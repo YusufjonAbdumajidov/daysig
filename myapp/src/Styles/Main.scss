@@ -75,9 +75,21 @@ main{
         display: flex;
         align-items: center;
         justify-content: center;
+        h1{
+            font-size: 260px;
+            position: fixed;
+            right: -2%;
+            top: 44%;
+            // z-index: -1;
+            color: rgba(95, 95, 95, 0.1);
+            font-weight: bold;
+            background-color: transparent;
+        }
         img{
             height: 500px;
             margin-left: 40px;
+            background-color: transparent;
+            z-index: 11;
         }
         
     }

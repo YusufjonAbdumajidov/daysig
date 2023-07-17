@@ -29,6 +29,7 @@ const Main = () => {
             </div>
         </div>
         <div className="showcase">
+          <h1>DAYSIG</h1>
           <img src={mainImage} alt="" />
         </div>
     </main>
