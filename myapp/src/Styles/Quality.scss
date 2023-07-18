@@ -2,4 +2,23 @@
 
 .qualityContainer{
     padding: 5%  12%;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kanit', sans-serif;
+    .qualities{
+        margin-top: 40px;
+        width: 100%;
+        border: 1px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        section{
+            width: 240px;
+            height: 300px;
+            border: 1px solid green;
+            margin: 20px 0;
+        }
+    }
 }
