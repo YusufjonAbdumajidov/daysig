@@ -19,7 +19,7 @@ const Navbar = () => {
                     <li>market</li>
                     <li>community</li>
                     <li>resources</li>
-                    <li onClick={() => setChangeLanguage(!changeLanguage)} ><BsGlobe2 style={{marginRight: "6px"}}/> {changeLanguage ? "Ru" : "Eng"}</li>
+                    {/* <li onClick={() => setChangeLanguage(!changeLanguage)} ><BsGlobe2 style={{marginRight: "6px"}}/> {changeLanguage ? "Ru" : "Eng"}</li> */}
                   </div>
                 </div>
 
