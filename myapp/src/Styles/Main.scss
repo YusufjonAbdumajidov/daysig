@@ -35,12 +35,12 @@ main{
             display: flex;
             align-items: center;
             transition: all .4s ease-in-out;
-            &:hover{
-                .rightArrow{
-                    transition: all .4s ease-in-out;
-                    margin-left: 22px;
-                }
-            }
+            // &:hover{
+            //     .rightArrow{
+            //         transition: all .4s ease-in-out;
+            //         margin-left: 22px;
+            //     }
+            // }
             .rightArrow{
                 background: transparent;
                 margin-left: 14px;
