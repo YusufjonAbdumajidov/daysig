@@ -10,16 +10,24 @@ const Quality = () => {
         <p>You can find the best quality and profitable dayly trading signals in DAYSIG</p>
         <div className="qualities">
             <section>
-              <FiStar />
+              <FiStar className='qualityIcon' />
+              <h2>Best Quality</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dicta adipisci vitae, quas totam dolore distinctio accusantium?</p>
             </section>
             <section>
-              <AiOutlineSecurityScan />
+              <AiOutlineSecurityScan className='qualityIcon' />
+              <h2>Secure</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dicta adipisci vitae, quas totam dolore distinctio accusantium?</p>
             </section>
             <section>
-              <AiOutlinePercentage />
+              <AiOutlinePercentage className='qualityIcon' />
+              <h2>85% Winning Rate</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dicta adipisci vitae, quas totam dolore distinctio accusantium?</p>
             </section>
             <section>
-              <BiMoneyWithdraw />
+              <BiMoneyWithdraw className='qualityIcon' />
+              <h2>Profitable Trades</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dicta adipisci vitae, quas totam dolore distinctio accusantium?</p>
             </section>
         </div>
     </div>

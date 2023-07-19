@@ -19,6 +19,20 @@
             height: 300px;
             border: 1px solid green;
             margin: 20px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .qualityIcon{
+                font-size: 48px;
+                background-color: red;
+                padding: 8px;
+                border-radius: 50px;
+                color: #fff;
+            }
+            p{
+                text-align: center;
+            }
         }
     }
 }

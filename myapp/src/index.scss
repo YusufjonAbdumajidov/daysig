@@ -2,6 +2,14 @@
 @import "./Styles/Navbar.scss", "./Styles/Main.scss", "./Styles/About.scss", "./Styles//Quality.scss";
 
 
+$mainColor: rgb(17,17,17);
+$primaryColor: rgb(73,139,247);
+$secondaryColor: rgb(0,28,80);
+$greenColor: rgb(116,220,0);
+$redColor: rgb(244,43,7);
+$secondaryTextColor: rgb(149,149,149);
+
+
 *{
     padding: 0;
     margin: 0;
