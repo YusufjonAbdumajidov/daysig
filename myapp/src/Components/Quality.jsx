@@ -6,9 +6,13 @@ import { BiMoneyWithdraw } from 'react-icons/bi';
 const Quality = () => {
   return (
     <div className='qualityContainer'>
+      <div className="qualityIntro">
         <h1>We take care of our quality</h1>
         <p>You can find the best quality and profitable dayly trading signals in DAYSIG</p>
+      </div>
+        
         <div className="qualities">
+       
             <section>
               <FiStar className='qualityIcon' />
               <h2>Best Quality</h2>
