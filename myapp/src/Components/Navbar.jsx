@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BsGlobe2, BsChevronDown, BsChevronUp } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [ showDropdown, setShowDropdown ] = useState(false);
@@ -15,7 +16,7 @@ const Navbar = () => {
                 <div class="dropdown">
                   <li className='moreBtn' onClick={() => setShowDropdown(!showDropdown)} >more <BsChevronDown />   </li>
                   <div className="dropdown-content">
-                    <li>registration </li>
+                    <Link to='/Register'><li>registration</li></Link> 
                     <li>market</li>
                     <li>community</li>
                     <li>resources</li>
