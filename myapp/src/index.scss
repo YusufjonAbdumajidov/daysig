@@ -18,3 +18,24 @@ $secondaryTextColor: rgb(149,149,149);
     box-sizing: border-box;
     background-color: #111;
 }
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #1a1a1a; 
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0e0e0e; 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0a0a0a; 
+}
