@@ -1,18 +1,22 @@
 import "./index.scss";
-import Navbar from "./Components/Navbar";
-import Main from "./Components/Main";
-import About from "./Components/About";
-import Quality from "./Components/Quality";
-import Questions from "./Components/Questions";
+import {  Routes, Route } from 'react-router-dom';
+import Home from "./Components/Home";
+
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Routes>
+        <Route path="/" element={ <Home /> } />
+      </Routes>
+
+
+      {/* <Navbar />
       <Main />
       <About />
       <Quality />
-      <Questions />
+      <Questions /> */}
     </div>
   );
 }
