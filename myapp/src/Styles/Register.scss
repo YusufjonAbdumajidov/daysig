@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 .registerContainer{
     padding: 0% 12%;
     nav{
@@ -13,5 +15,8 @@
             letter-spacing: 1.1px;
             color: #d3d3d3;
         }
+    }
+    .mainRegister{
+        font-family: 'Kanit', sans-serif;
     }
 }
