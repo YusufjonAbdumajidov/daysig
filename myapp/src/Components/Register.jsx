@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { MdAlternateEmail } from "react-icons/md";
 
 const Register = () => {
   return <div className='registerContainer'>
@@ -13,9 +14,15 @@ const Register = () => {
         <section>
         <form action="#">
             <label htmlFor="name">Name</label>
-            <input type="text" />
+            <div>
+              <input type="text"  />
+            </div>
+            
             <label htmlFor="name">E-mail</label>
-            <input type="email" />
+            <div>
+              <input type="email" />
+            </div>
+            
             <label htmlFor="password">Password</label>
             <input type="password" />
           </form>
