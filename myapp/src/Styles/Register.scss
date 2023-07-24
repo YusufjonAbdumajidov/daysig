@@ -53,16 +53,23 @@
                 }
                 div{
                     width: 100%;
+                    input{
+                        outline: none;
+                        border: none;
+                        border-bottom: 1px solid #9e9e9e;
+                        width: 100%;
+                        height: 34px;
+                        color: #fff;
+                        font-size: 22px;
+                        padding-bottom: 6px;
+                    }
+                    .inputIcon{
+                        position: absolute;
+                        color: #c8c8c8;
+                        font-size: 22px;
+                    }
                 }
-                input{
-                    outline: none;
-                    border: none;
-                    border-bottom: 1px solid #9e9e9e;
-                    width: 100%;
-                    height: 34px;
-                    color: #fff;
-                    font-size: 22px;
-                }
+                
             }
         }
     }
