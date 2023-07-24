@@ -1,5 +1,7 @@
 import React from 'react';
 import { MdAlternateEmail } from "react-icons/md";
+import { BiUserCircle } from "react-icons/bi";
+import { AiOutlineEyeInvisible } from "react-icons/ai";
 
 const Register = () => {
   return <div className='registerContainer'>
@@ -16,16 +18,19 @@ const Register = () => {
             <label htmlFor="name">Name</label>
             <div>
               <input type="text"  />
+              < BiUserCircle className='inputIcon' />
             </div>
             
             <label htmlFor="name">E-mail</label>
             <div>
               <input type="email" />
+              < MdAlternateEmail className='inputIcon' />
             </div>
             
             <label htmlFor="password">Password</label>
             <div>
               <input type="password" />
+              < AiOutlineEyeInvisible className='inputIcon' />
             </div>
             
           </form>
