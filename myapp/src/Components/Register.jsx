@@ -44,7 +44,7 @@ const Register = () => {
                 <input type="checkbox" id="remember" name="remember" />
                 <p>Remeber for 30 days</p>
              </div>
-             <p>Forgot Password</p>
+             <p>Forgot Password?</p>
           </div>
         </section>
       </div>
