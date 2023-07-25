@@ -39,6 +39,13 @@ const Register = () => {
             </div>
             
           </form>
+          <div className="remember">
+             <div>
+                <input type="checkbox" id="remember" name="remember" />
+                <p>Remeber for 30 days</p>
+             </div>
+             <p>Forgot Password</p>
+          </div>
         </section>
       </div>
   </div>
