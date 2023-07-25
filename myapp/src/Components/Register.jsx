@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { MdAlternateEmail } from "react-icons/md";
 import { BiUserCircle } from "react-icons/bi";
-import { AiOutlineEyeInvisible } from "react-icons/ai";
+import { AiOutlineEyeInvisible, AiOutlineEye } from "react-icons/ai";
 import PaulImage from "../assets/paul.webp"
 
 const Register = () => {
+
+  const [ passwordVisible, setPasswordVisible ] = useState(true);
+
   return <div className='registerContainer'>
       <nav>
         <div>daysig.</div>
@@ -35,7 +38,10 @@ const Register = () => {
             <label htmlFor="password">Password</label>
             <div>
               <input type="password" />
-              < AiOutlineEyeInvisible className='inputIcon' />
+              {
+                passwordVisible ? < AiOutlineEye className='inputIcon' onClick={() => setPasswordVisible(!passwordVisible)} /> : < AiOutlineEyeInvisible className='inputIcon' onClick={() => setPasswordVisible(!passwordVisible)} />
+              }
+              
             </div>
             
           </form>
