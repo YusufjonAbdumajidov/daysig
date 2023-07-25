@@ -46,6 +46,7 @@ const Register = () => {
              </div>
              <p>Forgot Password?</p>
           </div>
+          <button>Create an account</button>
         </section>
       </div>
   </div>

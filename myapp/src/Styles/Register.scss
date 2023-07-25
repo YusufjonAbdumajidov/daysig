@@ -35,7 +35,7 @@
                 letter-spacing: 1.1px;
             }
             .quote{
-                margin-top: 80px;
+                margin-top: 50px;
                 // padding: 30px;
                 border-radius: 8px;
                 width: 100%;
@@ -67,6 +67,9 @@
             // border: 1px solid red;
 
             padding-left: 40px;
+            display: flex;
+            flex-direction: column;
+            
             form{
                 // margin-top: 20px;
                 display: flex;
@@ -120,6 +123,18 @@
                     color: rgb(220, 71, 71);
                     font-size: 14px;
                 }
+            }
+            button{
+                margin-top: 36px;
+                border: none;
+                outline: none;
+                color: #fff;
+                // border: 1px solid #fff;
+                cursor: pointer;
+                padding: 18px 0;
+                border-radius: 14px;
+                font-size: 18px;
+                background-color: #498BF7;
             }
         }
     }
