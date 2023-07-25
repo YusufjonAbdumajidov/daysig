@@ -37,7 +37,7 @@ const Register = () => {
             
             <label htmlFor="password">Password</label>
             <div>
-              <input type="password" />
+              <input type={ passwordVisible ? "text" : "password"} />
               {
                 passwordVisible ? < AiOutlineEye className='inputIcon' onClick={() => setPasswordVisible(!passwordVisible)} /> : < AiOutlineEyeInvisible className='inputIcon' onClick={() => setPasswordVisible(!passwordVisible)} />
               }
