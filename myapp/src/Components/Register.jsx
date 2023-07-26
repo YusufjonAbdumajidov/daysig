@@ -16,10 +16,10 @@ const Register = () => {
         <section>
           <h1>Welcome to daysig.</h1> 
           <p>Anyone can earn their first dollar online. Start with what you know and have. Repeat after our experienced traders and make money. It's that easy.</p>
-          <div className="quote">
+          {/* <div className="quote">
             <p>"There is really nothing like trading. Once you crack the code it is like having an ATM on your computer." - <span>Paul Tudor Jones</span> </p>
             <img src={PaulImage} alt="" />
-          </div>
+          </div> */}
         </section>
         <section>
         <form action="#">
