@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { MdAlternateEmail } from "react-icons/md";
 import { BiUserCircle } from "react-icons/bi";
 import { AiOutlineEyeInvisible, AiOutlineEye } from "react-icons/ai";
+import { Link } from 'react-router-dom';
 import PaulImage from "../assets/paul.webp"
 
 const Register = () => {
@@ -10,7 +11,7 @@ const Register = () => {
 
   return <div className='registerContainer'>
       <nav>
-        <div>daysig.</div>
+        <div><Link to="/" className='logo'>daysig.</Link></div>
       </nav>
       <div className="mainRegister">
         <section>

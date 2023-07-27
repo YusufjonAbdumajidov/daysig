@@ -15,7 +15,9 @@ header{
         font-family: 'Josefin Sans', sans-serif;
         text-transform: uppercase;
         letter-spacing: 1.1px;
-        color: #d3d3d3;
+        .logoInside{
+            color: #d3d3d3;
+        }
     }
     ul{
         display: flex;

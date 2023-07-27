@@ -7,7 +7,7 @@ const Navbar = () => {
     const [ changeLanguage, setChangeLanguage ] = useState(false)
   return (
     <header>
-        <div className="logo">daysig.</div>
+        <div className="logo"> <Link to="/" className='logoInside'>daysig.</Link> </div>
         <nav>
             <ul>
                 <li>about</li>
