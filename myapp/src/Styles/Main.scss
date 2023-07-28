@@ -12,7 +12,6 @@ main{
         h1{
             font-size: 54px;
             letter-spacing: 4px;
-            // line-height: 74px;
             color: #fff;
             font-family: 'Kanit', sans-serif;
         }
@@ -35,12 +34,6 @@ main{
             display: flex;
             align-items: center;
             transition: all .4s ease-in-out;
-            // &:hover{
-            //     .rightArrow{
-            //         transition: all .4s ease-in-out;
-            //         margin-left: 22px;
-            //     }
-            // }
             .rightArrow{
                 background: transparent;
                 margin-left: 14px;
