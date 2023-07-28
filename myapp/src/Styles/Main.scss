@@ -162,7 +162,6 @@ main{
             .sponsors{
                 align-items: center;
                 justify-content: center;
-                // margin-top: 40px;
                 div{
                     align-items: center;
                     justify-content: center;   
@@ -184,7 +183,6 @@ main{
 
 @media (max-width: 882px){
     main{
-        // background-color: purple;
         flex-direction: column-reverse;
         .info{
             display: flex;
@@ -193,7 +191,6 @@ main{
             justify-content: center;
             h1{
                 font-size: 38px;
-                // line-height: 46px;
                 text-align: center;
             }
             p{
