@@ -1,17 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 .aboutContainer{
-    // border: 1px solid #fff;
     margin-top: 80px;
     padding: 5%  12%;
     display: flex;
     align-items: center;
     font-family: 'Kanit', sans-serif;
-    // background-color: rgb(30, 30, 30);
     section{
         h1{
             font-size: 34px;
             letter-spacing: 4px;
-            // line-height: 74px;
             color: #fff;
             font-family: 'Kanit', sans-serif;
         }
@@ -35,7 +32,6 @@
         }
         .dotsContainer{
             position: absolute;
-            // border: 1px solid #fff;
             height: 370px;
             width: 670px;
             background-color: rgb(17, 17, 17, .4);
@@ -43,9 +39,7 @@
                 position: absolute;
                 width: 18px;
                 height: 18px;
-                // border: 1px solid #fff;
                 background-color: #498BF7;
-                // background-color: #00205a;
                 border-radius: 50px;
                 z-index: 111;
                 &:nth-child(1){
