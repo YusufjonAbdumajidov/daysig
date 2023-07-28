@@ -12,8 +12,9 @@ const Home = () => {
         <Main />
         <About />
         <Quality />
-        <Questions />
         <Info />
+        <Questions />
+        
   </>
 }
 
