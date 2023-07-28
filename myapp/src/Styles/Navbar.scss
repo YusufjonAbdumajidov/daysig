@@ -64,11 +64,9 @@ header{
       
       .dropdown-content {
         display: none;
-        position: absolute;
-        // box-shadow: 0 0 10px #070707;
+        position: absolute; 
         background-color: #181818;
         min-width: 160px;
-        // padding: 12px 10px;
         z-index: 1;
         border-radius: 8px;
         transition: height 0.3s ease, opacity 0.3s ease;
