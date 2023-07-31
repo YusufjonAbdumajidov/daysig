@@ -1,8 +1,20 @@
-import React from 'react'
+import React from 'react';
+import trader1 from "../assets/trader1.avif";
+import trader2 from "../assets/trader2.jpg";
+import trader3 from "../assets/trader3.jpg";
+import trader4 from "../assets/trader4.jpg";
 
 const Info = () => {
   return (
-    <div className='infoContainer'>Info</div>
+    <div className='infoContainer'>
+      <section>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rem sint temporibus eaque quae fuga numquam rerum, quas voluptate atque, itaque cupiditate voluptates minus architecto ipsa expedita. Eveniet, quibusdam quisquam!
+      </section>
+      <section></section>
+      <section>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sequi cumque pariatur consequatur asperiores deleniti illo, reiciendis est sapiente nemo. Non quaerat, fugit animi hic necessitatibus mollitia voluptatem! Nesciunt, provident.
+      </section>
+    </div>
   )
 }
 
