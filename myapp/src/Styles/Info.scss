@@ -10,9 +10,22 @@
         color: #9e9e9e;
         letter-spacing: 1.1px;
         text-align: center;
+        font-size: 18px;
     }
     section{
         z-index: 11;
+        h2{
+            font-size: 28px;
+            letter-spacing: 4px;
+            color: #fff;
+            font-family: 'Kanit', sans-serif;
+        }
+        &:nth-child(1){
+            text-align: center;
+        }
+        &:nth-child(3){
+            text-align: center;
+        }
     }
     section:nth-child(2){
         display: flex;
@@ -43,7 +56,7 @@
             transition: all, .4s;
             z-index: 11;
             &:hover{
-                transform: scale3d(1.1,1.1,1.1);
+                transform: scale3d(1.2,1.2,1.2);
             }
         }
     }

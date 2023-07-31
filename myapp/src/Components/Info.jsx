@@ -7,8 +7,11 @@ import trader4 from "../assets/trader4.jpg";
 const Info = () => {
   return (
     <div className='infoContainer'>
+
+   
       
       <section>
+        <h2>Experienced</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rem sint temporibus eaque quae fuga numquam rerum, quas voluptate atque, itaque cupiditate voluptates minus architecto ipsa expedita. Eveniet, quibusdam quisquam!
         </p>
@@ -25,11 +28,13 @@ const Info = () => {
         </div> 
       </section>
       <section>
+        <h2>Dedicated</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rem sint temporibus eaque quae fuga numquam rerum, quas voluptate atque, itaque cupiditate voluptates minus architecto ipsa expedita. Eveniet, quibusdam quisquam!
         </p>
       </section>
-    </div>
+      </div>
+  
   )
 }
 
