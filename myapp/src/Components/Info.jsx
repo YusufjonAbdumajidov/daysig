@@ -7,12 +7,14 @@ import trader4 from "../assets/trader4.jpg";
 const Info = () => {
   return (
     <div className='infoContainer'>
+      
       <section>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rem sint temporibus eaque quae fuga numquam rerum, quas voluptate atque, itaque cupiditate voluptates minus architecto ipsa expedita. Eveniet, quibusdam quisquam!
         </p>
       </section>
       <section>
+        <h1>Traders</h1>
         <div>
           <img src={trader1} alt="" />
           <img src={trader2} alt="" />
