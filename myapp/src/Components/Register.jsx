@@ -11,6 +11,7 @@ const Register = () => {
   const [ passwordVisible, setPasswordVisible ] = useState(true);
   const [ username, setUsername ] = useState('');
   const [ password, setPassword ] = useState('');
+  const [ email, setEmail ] = useState('');
   const [ errorMessage, setErrorMessage ] = useState('');
 
   const handleLogin = async (event) => {
@@ -45,22 +46,34 @@ const Register = () => {
           </div> */}
         </section>
         <section>
-        <form action="#">
+        <form onSubmit={handleLogin}>
             <label htmlFor="name">Name</label>
             <div>
-              <input type="text"  />
+              <input 
+              type="text"
+              id='username'
+              value={username}
+              onChange={(e) => setUsername(e.target.value)} required  />
               < BiUserCircle className='inputIcon' />
             </div>
             
             <label htmlFor="name">E-mail</label>
             <div>
-              <input type="email" />
+              <input 
+              type="email"
+              id='email'
+              value={email}
+              onChange={(e) => setEmail(e.target.value)} required />
               < MdAlternateEmail className='inputIcon' />
             </div>
             
             <label htmlFor="password">Password</label>
             <div>
-              <input type={ passwordVisible ? "text" : "password"} />
+              <input 
+              type={ passwordVisible ? "text" : "password"}
+              id='password'
+              value={password}
+              onChange={(e) => setPassword(e.target.value)} />
               {
                 passwordVisible ? < AiOutlineEye className='inputIcon' onClick={() => setPasswordVisible(!passwordVisible)} /> : < AiOutlineEyeInvisible className='inputIcon' onClick={() => setPasswordVisible(!passwordVisible)} />
               }
