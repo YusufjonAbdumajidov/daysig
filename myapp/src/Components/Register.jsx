@@ -9,6 +9,27 @@ import axios from 'axios';
 const Register = () => {
 
   const [ passwordVisible, setPasswordVisible ] = useState(true);
+  const [ username, setUsername ] = useState('');
+  const [ password, setPassword ] = useState('');
+  const [ errorMessage, setErrorMessage ] = useState('');
+
+  const handleLogin = async (event) => {
+    event.preventDefault();
+
+    try{
+      const response = await axios.post('api/login', {username, password});
+
+      if(response.status === 200){
+        alert(response.data.message)
+      }
+    }catch(error){
+      if(error.response && error.response.data){
+        setErrorMessage(error.response.data.error);
+      }else{
+        setErrorMessage(' An error accured during a login');
+      }
+    }
+  }
 
   return <div className='registerContainer'>
       <nav>
