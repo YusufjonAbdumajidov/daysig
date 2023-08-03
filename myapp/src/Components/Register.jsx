@@ -79,6 +79,8 @@ const Register = () => {
               }
               
             </div>
+
+            <button type='submit'>Create an account</button>
             
           </form>
           <div className="remember">
@@ -88,7 +90,7 @@ const Register = () => {
              </div>
              <p>Forgot Password?</p>
           </div>
-          <button>Create an account</button>
+          {/* <button>Create an account</button> */}
         </section>
       </div>
   </div>
