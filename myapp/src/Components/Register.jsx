@@ -85,21 +85,13 @@ const Register = () => {
                 <input type="checkbox" id="remember" name="remember" />
                 <p>Remeber for 30 days</p>
              </div>
-             {/* <p>Forgot ?</p> */}
           </div>
 
             <button className='loginBtn' type='submit'>Create an account</button>
             
           </form>
           {errorMessage &&  <p id='error-message'>{errorMessage}</p>}
-          {/* <div className="remember">
-             <div>
-                <input type="checkbox" id="remember" name="remember" />
-                <p>Remeber for 30 days</p>
-             </div>
-             <p>Forgot Password?</p>
-          </div> */}
-          {/* <button>Create an account</button> */}
+     
         </section>
       </div>
   </div>
