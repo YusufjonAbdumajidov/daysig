@@ -85,7 +85,7 @@ const Register = () => {
                 <input type="checkbox" id="remember" name="remember" />
                 <p>Remeber for 30 days</p>
              </div>
-             <p>Forgot Password?</p>
+             {/* <p>Forgot ?</p> */}
           </div>
 
             <button className='loginBtn' type='submit'>Create an account</button>
