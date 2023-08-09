@@ -5,9 +5,10 @@ import { AiOutlineEyeInvisible, AiOutlineEye } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
-const Register = () => {
+const Login = () => {
 
   const [ passwordVisible, setPasswordVisible ] = useState(true);
+
   const [ username, setUsername ] = useState('');
   const [ password, setPassword ] = useState('');
   const [ email, setEmail ] = useState('');
@@ -17,7 +18,8 @@ const Register = () => {
     event.preventDefault();
 
     try{
-      const response = await axios.post('api/login', {username, password});
+      const response = await axios.post('###', {username, email, password});
+      console.log(response);
 
       if(response.status === 200){
         alert(response.data.message)
@@ -87,4 +89,4 @@ const Register = () => {
   </div>
 }
 
-export default Register
+export default Login
