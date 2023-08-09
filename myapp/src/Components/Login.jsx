@@ -37,14 +37,6 @@ const Register = () => {
       </nav>
       <div className="mainRegister">
         <section>
-          <h1>Log in to daysig.</h1> 
-          <p>Anyone can earn their first dollar online. Start with what you know and have. Repeat after our experienced traders and make money. It's that easy.</p>
-          {/* <div className="quote">
-            <p>"There is really nothing like trading. Once you crack the code it is like having an ATM on your computer." - <span>Paul Tudor Jones</span> </p>
-            <img src={PaulImage} alt="" />
-          </div> */}
-        </section>
-        <section>
         <form onSubmit={handleLogin}>
             <label htmlFor="name">Name</label>
             <div>
@@ -81,7 +73,7 @@ const Register = () => {
 
             <div className="remember">
              <div>
-                <p>Have an acoount? <span>Login</span></p>
+                <p>Do not have an acoount? <span> <Link to="/Register">Register</Link> </span></p>
              </div>
           </div>
 

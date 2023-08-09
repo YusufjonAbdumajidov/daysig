@@ -83,7 +83,7 @@ const Register = () => {
 
             <div className="remember">
              <div>
-                <p>Have an acoount? <span> <Link to="/Login">Login</Link></span></p>
+                <p>Have an acoount? <span> <Link to="/Login" className='loginBtn' >Login</Link></span></p>
              </div>
           </div>
 
