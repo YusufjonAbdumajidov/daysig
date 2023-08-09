@@ -73,11 +73,11 @@ const Register = () => {
 
             <div className="remember">
              <div>
-                <p>Do not have an acoount? <span> <Link to="/Register">Register</Link> </span></p>
+                <p>Do not have an acoount? <span> <Link to="/Register" className='registerBtn'>Register</Link> </span></p>
              </div>
           </div>
 
-            <button className='loginBtn' type='submit'>Create an account</button>
+            <button className='loginBtn' type='submit'>Log In</button>
             
           </form>
           {errorMessage &&  <p id='error-message'>{errorMessage}</p>}
