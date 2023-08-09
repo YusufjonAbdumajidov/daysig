@@ -3,8 +3,9 @@ import { MdAlternateEmail } from "react-icons/md";
 import { BiUserCircle } from "react-icons/bi";
 import { AiOutlineEyeInvisible, AiOutlineEye } from "react-icons/ai";
 import { Link } from 'react-router-dom';
-import PaulImage from "../assets/paul.webp";
 import axios from 'axios';
+
+
 
 const Register = () => {
 
@@ -82,8 +83,7 @@ const Register = () => {
 
             <div className="remember">
              <div>
-                <input type="checkbox" id="remember" name="remember" />
-                <p>Remeber for 30 days</p>
+                <p>Have an acoount? <span> <Link to="/Login">Login</Link></span></p>
              </div>
           </div>
 

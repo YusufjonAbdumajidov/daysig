@@ -124,17 +124,20 @@
                 div{
                     display: flex;
                     align-items: center;
-                    input{
-                      background-color: #c8c8c8; 
-                      padding: 10px;
-                      height: 17px;
-                      width: 17px;
-                      cursor: pointer;
-                    }
+                    // input{
+                    //   background-color: #c8c8c8; 
+                    //   padding: 10px;
+                    //   height: 17px;
+                    //   width: 17px;
+                    //   cursor: pointer;
+                    // }
                     p{
                         color: #c8c8c8;
-                        margin-left: 10px;
-                        font-size: 14px;
+                        font-size: 16px;
+                        letter-spacing: 1px;
+                        span{
+                            margin-left: 12px;
+                        }
                     }
                 }
                 p{
