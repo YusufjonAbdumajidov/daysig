@@ -5,6 +5,7 @@ import About from "./About";
 import Quality from "./Quality";
 import Questions from "./Questions";
 import Info from './Info';
+import Testimonials from './Testimonials';
 
 const Home = () => {
   return <>
@@ -13,6 +14,7 @@ const Home = () => {
         <About />
         <Quality />
         {/* <Info /> */}
+        <Testimonials />
         <Questions />
         
   </>
