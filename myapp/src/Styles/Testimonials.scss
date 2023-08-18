@@ -13,17 +13,17 @@
         display: flex;
         padding: 40px 0;
         section{
-            // &:nth-child(1){
-            //     border: 1px solid #fff;
-            //     width: 70%;
-            //     display: flex;
-            //     justify-content: space-around;
-            // }
-            // &:nth-child(2){
-            //     border: 1px solid #fff;
-            //     width: 30%;
+            &:nth-child(1){
+                border: 1px solid #fff;
+                width: 70%;
+                display: flex;
+                justify-content: space-around;
+            }
+            &:nth-child(2){
+                border: 1px solid #fff;
+                width: 30%;
            
-            // }
+            }
         }
     }
   
