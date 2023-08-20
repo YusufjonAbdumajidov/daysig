@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import trader1 from "../assets/trader1.jpg";
+import trader2 from "../assets/trader1.jpg";
+import trader3 from "../assets/trader1.jpg";
 
 const Testimonials = () => {
   return (
@@ -6,9 +9,15 @@ const Testimonials = () => {
         <h1>Hear from real clients and traders about their experience with our signals</h1>
         <div>
           <section>
-            <div>user 1</div>
-            <div>user 2</div>
-            <div>user 3</div>
+            <div>
+              <img src={trader1} alt="" />
+            </div>
+            <div>
+              <img src={trader2} alt="" />
+            </div>
+            <div>
+              <img src={trader3} alt="" />
+            </div>
           </section>
           <section></section>
         </div>
