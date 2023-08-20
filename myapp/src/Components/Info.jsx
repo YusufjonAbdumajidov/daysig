@@ -1,8 +1,8 @@
 import React from 'react';
-import trader1 from "../assets/trader1.avif";
-import trader2 from "../assets/trader2.jpg";
-import trader3 from "../assets/trader3.jpg";
-import trader4 from "../assets/trader4.jpg";
+// import trader1 from "../assets/trader1.avif";
+// import trader2 from "../assets/trader2.jpg";
+// import trader3 from "../assets/trader3.jpg";
+// import trader4 from "../assets/trader4.jpg";
 
 const Info = () => {
   return (
@@ -19,12 +19,12 @@ const Info = () => {
       <section>
         <h1>Traders</h1>
         <div>
-          <img src={trader1} alt="" />
-          <img src={trader2} alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
         </div>
         <div>
-          <img src={trader3} alt="" />
-          <img src={trader4} alt="" /> 
+          <img src="" alt="" />
+          <img src="" alt="" /> 
         </div> 
       </section>
       <section>
