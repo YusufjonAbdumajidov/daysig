@@ -28,6 +28,11 @@
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
+                    text-align: center;
+                    padding: 20px;
+                    .ratingStars{
+                        display: flex;
+                    }
                     img{
                         height: 80px;
                         width: 80px;
