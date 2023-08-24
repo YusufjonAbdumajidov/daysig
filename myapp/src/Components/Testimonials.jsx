@@ -48,7 +48,10 @@ const Testimonials = () => {
               </span>
             </div>
           </section>
-          <section></section>
+          <section>
+            < BsArrowLeft className='leftArrow' />
+            < BsArrowRight className='rightArrow' />
+          </section>
         </div>
        
     </div>
