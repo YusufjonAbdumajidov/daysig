@@ -33,7 +33,17 @@
                     padding: 20px;
                     border-radius: 20px;
                     .ratingStars{
+                        position: absolute;
+                        bottom: 20px;
                         display: flex;
+                    }
+                    h3{
+                        color: #fff;
+                        letter-spacing: 1px;
+                    }
+                    p{
+                        color: rgb(192, 192, 192);
+                        margin-top: 10px;
                     }
                     img{
                         height: 80px;
