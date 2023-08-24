@@ -3,6 +3,7 @@ import trader1 from "../assets/trader1.jpg";
 import trader2 from "../assets/trader1.jpg";
 import trader3 from "../assets/trader1.jpg";
 import { LiaStarSolid } from "react-icons/lia";
+import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 
 const Testimonials = () => {
   return (
@@ -39,8 +40,8 @@ const Testimonials = () => {
               <h3>Paul</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, provident!</p>
               <span className="ratingStars">
-                < LiaStarSolid />
-                < LiaStarSolid />
+                <LiaStarSolid />
+                <LiaStarSolid />
                 < LiaStarSolid />
                 < LiaStarSolid />
                 < LiaStarSolid />
