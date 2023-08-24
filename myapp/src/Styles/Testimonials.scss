@@ -43,11 +43,26 @@
             &:nth-child(2){
                 border: 1px solid #fff;
                 width: 26%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 .leftArrow{
-                    color: #fff;
+                    cursor: pointer;
+                    font-size: 54px;
+                    padding: 10px;
+                    color: #111;
+                    margin-right: 20px;
+                    background-color: rgb(73,139,247);
+                    border-radius: 50px;
                 }
                 .rightArrow{
-                    color: #fff;
+                    cursor: pointer;
+                    font-size: 54px;
+                    padding: 10px;
+                    color: #111;
+                    margin-left: 20px;
+                    background-color: rgb(73,139,247);
+                    border-radius: 50px;
                 }
                 
             }
