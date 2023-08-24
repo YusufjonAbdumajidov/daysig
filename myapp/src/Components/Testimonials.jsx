@@ -16,11 +16,11 @@ const Testimonials = () => {
               <h3>Paul Swinson</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, provident!</p>
               <span className="ratingStars">
-                < LiaStarSolid />
-                < LiaStarSolid />
-                < LiaStarSolid />
-                < LiaStarSolid />
-                < LiaStarSolid />
+                < LiaStarSolid className='star' />
+                < LiaStarSolid className='star' />
+                < LiaStarSolid className='star' />
+                < LiaStarSolid className='star' />
+                < LiaStarSolid className='star' />
               </span>
             </div>
             <div>
@@ -28,11 +28,11 @@ const Testimonials = () => {
               <h3>George</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, provident!</p>
               <span className="ratingStars">
-                < LiaStarSolid />
-                < LiaStarSolid />
-                < LiaStarSolid />
-                < LiaStarSolid />
-                < LiaStarSolid />
+                < LiaStarSolid className='star' />
+                < LiaStarSolid className='star' />
+                < LiaStarSolid className='star' />
+                < LiaStarSolid className='star' />
+                < LiaStarSolid className='star' />
               </span>
             </div>
             <div>
@@ -40,11 +40,11 @@ const Testimonials = () => {
               <h3>Alexander</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, provident!</p>
               <span className="ratingStars">
-                <LiaStarSolid />
-                <LiaStarSolid />
-                < LiaStarSolid />
-                < LiaStarSolid />
-                < LiaStarSolid />
+                <LiaStarSolid className='star' />
+                <LiaStarSolid className='star' />
+                < LiaStarSolid className='star' />
+                < LiaStarSolid className='star' />
+                < LiaStarSolid className='star' />
               </span>
             </div>
           </section>

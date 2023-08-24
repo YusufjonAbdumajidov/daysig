@@ -36,10 +36,16 @@
                         position: absolute;
                         bottom: 20px;
                         display: flex;
+                        .star{
+                            color: yellow;
+                            font-size: 22px;
+                            margin: 0 3px;
+                        }
                     }
                     h3{
                         color: #fff;
                         letter-spacing: 1px;
+                        font-size: 24px;
                     }
                     p{
                         color: rgb(192, 192, 192);
