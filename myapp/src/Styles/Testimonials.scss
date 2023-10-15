@@ -16,6 +16,8 @@
         padding: 80px 0 40px 0;
         // border: 1px solid #fff;
         section{
+            display: flex;
+            flex-direction: column;
             &:nth-child(1){
                 // border: 1px solid #fff;
                 width: 70%;

@@ -48,10 +48,10 @@ const Testimonials = () => {
               </span>
             </div>
           </section>
-          <section>
+          {/* <section>
             < BsArrowLeft className='leftArrow' />
             < BsArrowRight className='rightArrow' />
-          </section>
+          </section> */}
         </div>
        
     </div>
