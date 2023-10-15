@@ -47,6 +47,18 @@ const Testimonials = () => {
                 < LiaStarSolid className='star' />
               </span>
             </div>
+            <div>
+              <img src={trader3} alt="" />
+              <h3>Alexander</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, provident!</p>
+              <span className="ratingStars">
+                <LiaStarSolid className='star' />
+                <LiaStarSolid className='star' />
+                < LiaStarSolid className='star' />
+                < LiaStarSolid className='star' />
+                < LiaStarSolid className='star' />
+              </span>
+            </div>
           </section>
           {/* <section>
             < BsArrowLeft className='leftArrow' />
