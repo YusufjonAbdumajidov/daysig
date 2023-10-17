@@ -2,6 +2,7 @@
 
 main{
     background-color: #111;
+    width: 100%;
     // border: 1px solid #ffff;
     padding: 0% 12%;
     display: flex;
@@ -184,6 +185,7 @@ main{
 @media (max-width: 882px){
     main{
         flex-direction: column-reverse;
+        align-items: center;
         .info{
             display: flex;
             flex-direction: column;
