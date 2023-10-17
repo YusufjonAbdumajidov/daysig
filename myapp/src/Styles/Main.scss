@@ -9,6 +9,7 @@ main{
     justify-content: space-between;
     align-items: center;
     font-family: 'Kanit', sans-serif;
+    border: 1px solid #fff;
     .info{
         h1{
             font-size: 54px;
@@ -84,6 +85,7 @@ main{
             margin-left: 40px;
             background-color: transparent;
             z-index: 11;
+            border: 1px solid #fff;
         }
         
     }
@@ -219,6 +221,51 @@ main{
         .showcase{
             img{
                 height: 440px;
+            }
+        }
+    }
+}
+
+
+
+
+@media (max-width: 500px){
+    main{
+        flex-direction: column-reverse;
+        align-items: center;
+        .info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            h1{
+                font-size: 38px;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+            .sponsors{
+                position: relative;
+                transform: translateY(60px);
+                padding-bottom: 0px;
+                
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    
+                    margin-right: 0px;
+                 
+                    .sponsorIcon{
+                        margin-right: 6px;
+                       
+                    }
+                }
+            }
+        }
+        .showcase{
+            img{
+                height: 340px;
             }
         }
     }

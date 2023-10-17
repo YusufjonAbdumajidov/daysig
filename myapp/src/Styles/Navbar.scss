@@ -3,7 +3,7 @@
 header{
     background-color: #111;
     width: 100%;
-    border: 1px solid #111;
+    border: 1px solid #f9f9f9;
     height: 14vh;
     padding: 0 12%;
     display: flex;
@@ -21,6 +21,7 @@ header{
     }
     ul{
         display: flex;
+        border: 1px solid #f9f9f9;
         li{
             margin: 0 14px;
             cursor: pointer;
@@ -30,7 +31,7 @@ header{
             letter-spacing: 1.4px;
             color: #c2c2c2;
             &:nth-child(3){
-                margin-right: 50px;
+                margin-right: 60px;
                 display: flex;
                 align-items: center;
             }
