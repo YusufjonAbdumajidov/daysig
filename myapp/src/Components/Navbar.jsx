@@ -8,13 +8,13 @@ const Navbar = () => {
   return (
     <header>
         <div className="logo"> <Link to="/" className='logoInside'>daysig.</Link> </div>
-        <nav>
-            <ul>
+        <nav style={{background: "transparent"}}>
+            <ul >
                 <li>about</li>
                 <li>signals</li>
                
                 <div class="dropdown">
-                  <li className='moreBtn' onClick={() => setShowDropdown(!showDropdown)} >more <BsChevronDown />   </li>
+                  <li className='moreBtn' onClick={() => setShowDropdown(!showDropdown)} >more <BsChevronDown style={{background: "transparent"}} />   </li>
                   <div className="dropdown-content">
                     <Link to='/Register'><li>registration</li></Link> 
                     <li>market</li>
