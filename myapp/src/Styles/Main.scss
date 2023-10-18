@@ -9,7 +9,7 @@ main{
     justify-content: space-between;
     align-items: center;
     font-family: 'Kanit', sans-serif;
-    border: 1px solid #fff;
+    // border: 1px solid #fff;
     .info{
         h1{
             font-size: 54px;
@@ -85,7 +85,7 @@ main{
             margin-left: 40px;
             background-color: transparent;
             z-index: 11;
-            border: 1px solid #fff;
+            // border: 1px solid #fff;
         }
         
     }
@@ -266,6 +266,7 @@ main{
         .showcase{
             img{
                 height: 340px;
+                margin-left: 0;
             }
         }
     }
