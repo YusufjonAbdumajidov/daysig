@@ -45,6 +45,8 @@ main{
             position: relative;
             transform: translateY(60px);
             display: flex;
+
+            
             
             div{
                 display: flex;
@@ -249,12 +251,18 @@ main{
                 position: relative;
                 transform: translateY(60px);
                 padding-bottom: 0px;
+
+               
                 
                 div{
                     display: flex;
                     flex-direction: column;
                     
                     margin-right: 0px;
+
+                    p{
+                        font-size: 12px;
+                    }
                  
                     .sponsorIcon{
                         margin-right: 6px;
