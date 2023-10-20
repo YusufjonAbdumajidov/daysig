@@ -24,10 +24,12 @@
             border: 1px solid #111;
             margin: 20px 0;
             padding: 14px 16px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
             cursor: pointer;
+            section{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
             .downSide{
                 background-color: transparent;
                 cursor: pointer;
