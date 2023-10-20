@@ -13,7 +13,7 @@ const Navbar = () => {
                 <li>about</li>
                 <li>signals</li>
                
-                <div class="dropdown">
+                <div className="dropdown">
                   <li className='moreBtn' onClick={() => setShowDropdown(!showDropdown)} >more <BsChevronDown style={{background: "transparent"}} />   </li>
                   <div className="dropdown-content">
                     <Link to='/Register'><li>registration</li></Link> 
