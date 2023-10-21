@@ -10,7 +10,7 @@
         text-align: center;
         color: #fff;
     }
-    div{
+    .innerTestContainer{
         position: relative;
         display: flex;
         justify-content: center;
@@ -20,6 +20,7 @@
                 // border: 1px solid #fff;
                 width: 100%;
                 display: flex;
+                flex-wrap: wrap;
                 justify-content: center;
                 div{
                     border: 1px solid rgb(255, 255, 255, .2);
@@ -63,7 +64,7 @@
                         width: 80px;
                         border-radius: 100px;
                         position: absolute;
-                        top: -15%;
+                        top: 10%;
                     }
             }
         }

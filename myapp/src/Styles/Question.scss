@@ -13,9 +13,11 @@
             font-size: 34px;
             letter-spacing: 2px;
             font-weight: bold;
+            color: #fff;
             // font-family: 'Kanit', sans-serif;
         }
         p{
+            color: #cfcfcf;
             background: transparent;
             font-size: 20px;
             letter-spacing: 0.5px;
@@ -25,7 +27,7 @@
         position: relative;
         div{
             background: #2574f4;
-            border: 1px solid #1e4e9b;
+            // border: 1px solid #1e4e9b;
             border-radius: 4px;
             margin: 20px 0;
             padding: 14px 16px;
@@ -36,7 +38,6 @@
                 color: #0b1c38;
             }
             section{
-                
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
@@ -47,6 +48,9 @@
             }
             .answer{
                 transition: all .4s ease-in-out;
+                p{
+                    color: #0b1c38;
+                }
             }
         }
     }
