@@ -35,6 +35,9 @@
                 background-color: transparent;
                 cursor: pointer;
             }
+            .answer{
+                transition: all .4s ease-in-out;
+            }
         }
     }
 }
