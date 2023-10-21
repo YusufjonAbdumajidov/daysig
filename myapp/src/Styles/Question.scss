@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
 .questionsContainer{
+    position: relative;
     padding: 5%  12%;
     font-family: 'Kanit', sans-serif;
     background-color: #498BF7;
     section{
+        
         background: transparent;
         h1{
             background: transparent;
             font-size: 34px;
             letter-spacing: 2px;
+            font-weight: bold;
             // font-family: 'Kanit', sans-serif;
         }
         p{
@@ -23,10 +26,16 @@
         div{
             background: transparent;
             border: 1px solid #111;
+            border-radius: 4px;
             margin: 20px 0;
             padding: 14px 16px;
             cursor: pointer;
+            h2{
+                background: transparent;
+                font-size: 20px;
+            }
             section{
+                
                 display: flex;
                 align-items: center;
                 justify-content: space-between;

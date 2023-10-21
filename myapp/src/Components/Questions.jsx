@@ -34,7 +34,7 @@ const Questions = () => {
     sixthAnswer: false,
   });
 
-  console.log(showAnswer.firstAnswer)
+ 
 
   return (
     <div className='questionsContainer'>
@@ -44,7 +44,7 @@ const Questions = () => {
         </section>
         <section>
           <div onClick={() => { setShowAnswer({...showAnswer, firstAnswer: !showAnswer.firstAnswer}) ; setChangeIcon(!changeIcon)}} >
-            <section> 1 question 
+            <section> <h2>1 question</h2>  
               {showAnswer.firstAnswer ? <BsChevronDown className='downSide'/>  : <BsChevronUp className='downSide'/>}
             </section>
             <section className="answer">
@@ -52,7 +52,7 @@ const Questions = () => {
             </section>
           </div>
           <div onClick={() => { setShowAnswer({...showAnswer, secondAnswer: !showAnswer.secondAnswer}) }} >
-            <section> 2 question 
+            <section> <h2>2 question </h2> 
               {showAnswer.secondAnswer ? <BsChevronDown className='downSide'/>  : <BsChevronUp className='downSide'/>}
             </section>
             <section className="answer">
@@ -60,7 +60,7 @@ const Questions = () => {
             </section>
           </div>
           <div onClick={() => { setShowAnswer({...showAnswer, thirdAnswer: !showAnswer.thirdAnswer}) }} >
-            <section> 3 question 
+            <section> <h2>3 question</h2>  
               {showAnswer.thirdAnswer ? <BsChevronDown className='downSide'/>  : <BsChevronUp className='downSide'/>}
             </section>
             <section className="answer">
@@ -68,7 +68,7 @@ const Questions = () => {
             </section>
           </div>
           <div onClick={() => { setShowAnswer({...showAnswer, fourthAnswer: !showAnswer.fourthAnswer}) }} >
-            <section> 4 question 
+            <section> <h2>4 question </h2> 
               {showAnswer.fourthAnswer ? <BsChevronDown className='downSide'/>  : <BsChevronUp className='downSide'/>}
             </section>
             <section className="answer">
@@ -76,7 +76,7 @@ const Questions = () => {
             </section>
           </div>
           <div onClick={() => { setShowAnswer({...showAnswer, fifthAnswer: !showAnswer.fifthAnswer}) }} >
-            <section> 5 question 
+            <section> <h2>5 question</h2>  
               {showAnswer.fifthAnswer ? <BsChevronDown className='downSide'/>  : <BsChevronUp className='downSide'/>}
             </section>
             <section className="answer">
@@ -84,7 +84,7 @@ const Questions = () => {
             </section>
           </div>
           <div onClick={() => { setShowAnswer({...showAnswer, sixthAnswer: !showAnswer.sixthAnswer}) }} >
-            <section> 2 question 
+            <section> <h2> 6 question</h2> 
               {showAnswer.sixthAnswer ? <BsChevronDown className='downSide'/>  : <BsChevronUp className='downSide'/>}
             </section>
             <section className="answer">
