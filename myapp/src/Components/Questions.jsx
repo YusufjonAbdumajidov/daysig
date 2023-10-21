@@ -51,7 +51,7 @@ const Questions = () => {
               <p>{showAnswer.firstAnswer ? questions.firstQuestion[0] : ""}</p>
             </section>
           </div>
-          <div onClick={() => { setShowAnswer({...showAnswer, secondAnswer: !showAnswer.secondAnswer}) ; setChangeIcon(!changeIcon)}} >
+          <div onClick={() => { setShowAnswer({...showAnswer, secondAnswer: !showAnswer.secondAnswer}) }} >
             <section> 2 question 
               {showAnswer.secondAnswer ? <BsChevronDown className='downSide'/>  : <BsChevronUp className='downSide'/>}
             </section>
@@ -59,10 +59,38 @@ const Questions = () => {
               <p>{showAnswer.secondAnswer ? questions.secondQuestion[0] : ""}</p>
             </section>
           </div>
-          <div onClick={() => setChangeIcon(!changeIcon)} ><section> 3 question <BsChevronDown className='downSide' /></section></div>
-          <div onClick={() => setChangeIcon(!changeIcon)} ><section> 4 question <BsChevronDown className='downSide' /></section> </div>
-          <div onClick={() => setChangeIcon(!changeIcon)} ><section> 5 question <BsChevronDown className='downSide' /></section> </div>
-          <div onClick={() => setChangeIcon(!changeIcon)} ><section> 6 question <BsChevronDown className='downSide' /></section> </div>
+          <div onClick={() => { setShowAnswer({...showAnswer, thirdAnswer: !showAnswer.thirdAnswer}) }} >
+            <section> 3 question 
+              {showAnswer.thirdAnswer ? <BsChevronDown className='downSide'/>  : <BsChevronUp className='downSide'/>}
+            </section>
+            <section className="answer">
+              <p>{showAnswer.thirdAnswer ? questions.thirdQuestion[0] : ""}</p>
+            </section>
+          </div>
+          <div onClick={() => { setShowAnswer({...showAnswer, fourthAnswer: !showAnswer.fourthAnswer}) }} >
+            <section> 4 question 
+              {showAnswer.fourthAnswer ? <BsChevronDown className='downSide'/>  : <BsChevronUp className='downSide'/>}
+            </section>
+            <section className="answer">
+              <p>{showAnswer.fourthAnswer ? questions.fourthQuestion[0] : ""}</p>
+            </section>
+          </div>
+          <div onClick={() => { setShowAnswer({...showAnswer, fifthAnswer: !showAnswer.fifthAnswer}) }} >
+            <section> 5 question 
+              {showAnswer.fifthAnswer ? <BsChevronDown className='downSide'/>  : <BsChevronUp className='downSide'/>}
+            </section>
+            <section className="answer">
+              <p>{showAnswer.fifthAnswer ? questions.fifthQuestion[0] : ""}</p>
+            </section>
+          </div>
+          <div onClick={() => { setShowAnswer({...showAnswer, sixthAnswer: !showAnswer.sixthAnswer}) }} >
+            <section> 2 question 
+              {showAnswer.sixthAnswer ? <BsChevronDown className='downSide'/>  : <BsChevronUp className='downSide'/>}
+            </section>
+            <section className="answer">
+              <p>{showAnswer.sixthAnswer ? questions.sixthQuestion[0] : ""}</p>
+            </section>
+          </div>
         </section>
     </div>
   )
