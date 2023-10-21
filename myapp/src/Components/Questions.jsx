@@ -6,7 +6,7 @@ const Questions = () => {
   const [changeIcon, setChangeIcon] = useState(false);
   let questions = {
     firstQuestion: [
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, pariatur. Reiciendis dignissimos minima ex voluptas earum sapiente cumque consectetur laudantium esse dolorem vero officiis ipsum et, architecto voluptates harum vitae." , false
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, pariatur. Reiciendis dignissimos minima ex voluptas earum sapiente cumque consectetur laudantium esse dolorem vero officiis ipsum et, architecto voluptates harum vitae." 
     ],
     secondQuestion: [
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, pariatur. Reiciendis dignissimos minima ex voluptas earum sapiente cumque consectetur laudantium esse dolorem vero officiis ipsum et, architecto voluptates harum vitae." 
@@ -44,21 +44,19 @@ const Questions = () => {
         </section>
         <section>
           <div onClick={() => { setShowAnswer({...showAnswer, firstAnswer: !showAnswer.firstAnswer}) ; setChangeIcon(!changeIcon)}} >
-
             <section> 1 question 
-              {changeIcon ? <BsChevronDown className='downSide'/>  : <BsChevronUp className='downSide'/>}
+              {showAnswer.firstAnswer ? <BsChevronDown className='downSide'/>  : <BsChevronUp className='downSide'/>}
             </section>
-           
             <section className="answer">
               <p>{showAnswer.firstAnswer ? questions.firstQuestion[0] : ""}</p>
             </section>
-
           </div>
-          <div onClick={() => { setChangeIcon(!changeIcon)}} >
-            <section> 2 question <BsChevronDown className='downSide' /></section>
-            
+          <div onClick={() => { setShowAnswer({...showAnswer, secondAnswer: !showAnswer.secondAnswer}) ; setChangeIcon(!changeIcon)}} >
+            <section> 2 question 
+              {showAnswer.secondAnswer ? <BsChevronDown className='downSide'/>  : <BsChevronUp className='downSide'/>}
+            </section>
             <section className="answer">
-              <p></p>
+              <p>{showAnswer.secondAnswer ? questions.secondQuestion[0] : ""}</p>
             </section>
           </div>
           <div onClick={() => setChangeIcon(!changeIcon)} ><section> 3 question <BsChevronDown className='downSide' /></section></div>
