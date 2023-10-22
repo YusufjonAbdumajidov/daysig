@@ -10,60 +10,63 @@ const Testimonials = () => {
     <div className='testimonies_container'>
         <h1>Hear from real clients and traders about their experience with our signals</h1>
         <div className='innerTestContainer'>
-          <section>
-            <div>
+            <section>
               <img src={trader1} alt="" />
-              <h3>Paul Swinson</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, provident!</p>
-              <span className="ratingStars">
-                < LiaStarSolid className='star' />
-                < LiaStarSolid className='star' />
-                < LiaStarSolid className='star' />
-                < LiaStarSolid className='star' />
-                < LiaStarSolid className='star' />
-              </span>
-            </div>
-            <div>
+              <div>
+                <h3>Paul Swinson</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, provident!</p>
+                <span className="ratingStars">
+                  < LiaStarSolid className='star' />
+                  < LiaStarSolid className='star' />
+                  < LiaStarSolid className='star' />
+                  < LiaStarSolid className='star' />
+                  < LiaStarSolid className='star' />
+                </span>
+              </div>
+            </section>
+            <section>
               <img src={trader2} alt="" />
-              <h3>George</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, provident!</p>
-              <span className="ratingStars">
-                < LiaStarSolid className='star' />
-                < LiaStarSolid className='star' />
-                < LiaStarSolid className='star' />
-                < LiaStarSolid className='star' />
-                < LiaStarSolid className='star' />
-              </span>
-            </div>
-            <div>
+              <div>
+                <h3>George</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, provident!</p>
+                <span className="ratingStars">
+                  < LiaStarSolid className='star' />
+                  < LiaStarSolid className='star' />
+                  < LiaStarSolid className='star' />
+                  < LiaStarSolid className='star' />
+                  < LiaStarSolid className='star' />
+                </span>
+              </div>
+            </section>
+            <section>
               <img src={trader3} alt="" />
-              <h3>Alexander</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, provident!</p>
-              <span className="ratingStars">
-                <LiaStarSolid className='star' />
-                <LiaStarSolid className='star' />
-                < LiaStarSolid className='star' />
-                < LiaStarSolid className='star' />
-                < LiaStarSolid className='star' />
-              </span>
-            </div>
-            <div>
+              <div>
+                <h3>Alexander</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, provident!</p>
+                <span className="ratingStars">
+                  <LiaStarSolid className='star' />
+                  <LiaStarSolid className='star' />
+                  < LiaStarSolid className='star' />
+                  < LiaStarSolid className='star' />
+                  < LiaStarSolid className='star' />
+                </span>
+              </div>
+            </section>
+            <section>
               <img src={trader3} alt="" />
-              <h3>Alexander</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, provident!</p>
-              <span className="ratingStars">
-                <LiaStarSolid className='star' />
-                <LiaStarSolid className='star' />
-                < LiaStarSolid className='star' />
-                < LiaStarSolid className='star' />
-                < LiaStarSolid className='star' />
-              </span>
-            </div>
-          </section>
-          {/* <section>
-            < BsArrowLeft className='leftArrow' />
-            < BsArrowRight className='rightArrow' />
-          </section> */}
+              <div>
+                <h3>Alexander</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, provident!</p>
+                <span className="ratingStars">
+                  <LiaStarSolid className='star' />
+                  <LiaStarSolid className='star' />
+                  < LiaStarSolid className='star' />
+                  < LiaStarSolid className='star' />
+                  < LiaStarSolid className='star' />
+                </span>
+              </div>
+            </section>
+        
         </div>
        
     </div>
