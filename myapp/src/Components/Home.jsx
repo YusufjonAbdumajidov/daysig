@@ -6,17 +6,18 @@ import Quality from "./Quality";
 import Questions from "./Questions";
 import Info from './Info';
 import Testimonials from './Testimonials';
+import Footer from './Footer';
 
 const Home = () => {
   return <>
-        <Navbar />
-        <Main />
-        <About />
-        <Quality />
+      <Navbar />
+      <Main />
+      <About />
+      <Quality />
         {/* <Info /> */}
-        <Testimonials />
-        <Questions />
-        
+      <Testimonials />
+      <Questions />
+       <Footer /> 
   </>
 }
 
