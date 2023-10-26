@@ -10,7 +10,7 @@ import Login from "./Components/Login";
 
 
 function App() {
-  const [ loading, setLoading ] = useState(false);
+  const [ loading, setLoading ] = useState(true);
 
   useEffect(() => {
     setLoading(true);
