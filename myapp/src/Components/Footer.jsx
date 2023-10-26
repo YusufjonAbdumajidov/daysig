@@ -4,7 +4,8 @@ const Footer = () => {
   return (
     <div className='footerContainer' >
       <section>
-        <h1>DAYSIG</h1> 
+        <h1>DAYSIG</h1>
+        <p>Our team of seasoned traders and cutting-edge algorithms analyze market trends and indicators to deliver accurate signals in real-time.</p>
       </section>
       <section>
         <ul>
@@ -17,10 +18,12 @@ const Footer = () => {
         </ul>
       </section>
       <section>
-        <h2>New York</h2>
-        <p>Wolf street</p>
-        <p>+39 292 292 999</p>
-        <p>test@gmail.com</p>
+        <ul>
+          <li>New York</li>
+          <li>Wolf street</li>
+          <li>+39 292 292 999</li>
+          <li>est@gmail.com</li>
+        </ul>
       </section>
     </div>
   )
