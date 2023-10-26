@@ -9,6 +9,7 @@ const Footer = () => {
       </section>
       <section>
         <ul>
+        <h2>Useful Links</h2>
           <li>About</li>
           <li>Signals</li>
           <li>Registraion</li>
@@ -19,6 +20,7 @@ const Footer = () => {
       </section>
       <section>
         <ul>
+        <h2>Address</h2>
           <li>New York</li>
           <li>Wolf street</li>
           <li>+39 292 292 999</li>
