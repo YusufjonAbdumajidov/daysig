@@ -1,10 +1,10 @@
 import React from 'react';
 import { BsInstagram } from  "react-icons/bs";
-import { AiOutlineMail } from "react-icons/ai";
+import { AiOutlineMail, AiOutlineCopyrightCircle } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
-  return (
+  return <>
     <div className='footerContainer' >
       <section>
         <ul>
@@ -30,7 +30,7 @@ const Footer = () => {
           <li>New York</li>
           <li>Wolf street</li>
           <li>+39 292 292 999</li>
-          <li>est@gmail.com</li>
+          <li>test@gmail.com</li>
         </ul>
         <ol>
           <li>< BsInstagram /></li>
@@ -38,8 +38,13 @@ const Footer = () => {
           <li>< FaFacebook /></li>
         </ol>
       </section>
+      
     </div>
-  )
+    <footer>
+        <AiOutlineCopyrightCircle className='copyIcon' />
+        <p> All rights reserved</p>
+    </footer>
+    </>
 }
 
 export default Footer
