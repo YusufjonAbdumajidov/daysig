@@ -39,5 +39,19 @@
                 }
             }
         }
+        ol{
+            margin-top: 20px;
+            // border: 1px solid #fff;
+            display: flex;
+            align-items: center;
+            li{
+                font-size: 22px;
+                margin: 0 20px;
+                cursor: pointer;
+                &:nth-child(2){
+                    font-size: 26px;
+                }
+            }
+        }
     }
 }
