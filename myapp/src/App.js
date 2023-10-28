@@ -12,12 +12,12 @@ import Login from "./Components/Login";
 function App() {
   const [ loading, setLoading ] = useState(true);
 
-  // useEffect(() => {
-  //   setLoading(true);
-  //   setTimeout(() => {
-  //     setLoading(false);
-  //   }, 2500)
-  // }, []);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2500)
+  }, []);
 
 
   return (
