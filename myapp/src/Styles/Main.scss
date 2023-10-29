@@ -36,10 +36,16 @@ main{
             margin-top: 26px;
             display: flex;
             align-items: center;
-            transition: all .4s ease-in-out;
+            transition: all .3s ease-in-out;
             .rightArrow{
                 background: transparent;
                 margin-left: 14px;
+                transition: all .3s ease-in-out;
+            }
+            &:hover{
+                .rightArrow{
+                    margin-left: 24px;
+                } 
             }
         }
         .sponsors{
