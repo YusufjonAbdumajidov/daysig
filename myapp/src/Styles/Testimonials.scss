@@ -1,23 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
-.testimonies_container{
-    padding: 5%  12%;
-    font-family: 'Kanit', sans-serif;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    h1{
-        text-align: center;
-        color: #fff;
-        // transform: translateY(-80px);
-    }
+// .testimonies_container{
+    // padding: 5%  12%;
+    // font-family: 'Kanit', sans-serif;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    // position: relative;
+    // width: 100%;
+   
     .innerTestContainer{
+        padding: 5%  12% 9% 12%;
         width: 100%;
         // border: 1px solid #fff;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
+        font-family: 'Kanit', sans-serif;
+        letter-spacing: 1px;
 
        
         section{
@@ -45,16 +47,19 @@
                     color: #b5b5b5
                 }
                 .ratingStars{
+                    
                     background-color: rgb(15, 14, 14);
                     .star{
+                        margin-top: 12px;
                         background-color: rgb(15, 14, 14);
-                        color: gold;
+                        color: rgb(255, 225, 54);
+                        margin-right: 3px;
                     }
                 }
             }
         }
     }
-}
+// }
 
 
 
