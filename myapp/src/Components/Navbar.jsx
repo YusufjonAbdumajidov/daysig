@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import { BsGlobe2, BsChevronDown, BsChevronUp } from "react-icons/bs";
 import { Link } from 'react-router-dom';
+import logoImage from "../assets/logo.png";
 
 const Navbar = () => {
     const [ showDropdown, setShowDropdown ] = useState(false);
     const [ changeLanguage, setChangeLanguage ] = useState(false)
   return (
     <header>
-        <div className="logo"> <Link to="/" className='logoInside'>daysig.</Link> </div>
+        <div className="logo"> <Link to="/" className='logoInside'><img src={logoImage} alt="" /></Link> </div>
         <nav style={{background: "transparent"}}>
             <ul >
                 <li>about</li>
