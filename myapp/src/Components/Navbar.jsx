@@ -11,7 +11,9 @@ const Navbar = () => {
         <nav style={{background: "transparent"}}>
             <ul >
                 <li><a href="#about">about</a> </li>
-                <li>signals</li>
+                <Link style={{
+                  background: "transparent"
+                }} to="/Signals"><li>signals</li></Link> 
                
                 <div className="dropdown">
                   <li className='moreBtn' onClick={() => setShowDropdown(!showDropdown)} >more <BsChevronDown style={{background: "transparent"}} />   </li>

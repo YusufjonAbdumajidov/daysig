@@ -5,6 +5,7 @@ import Home from "./Components/Home";
 import Register from "./Components/Register";
 import Loading from "./Components/Loading";
 import Login from "./Components/Login";
+import Signals from "./Components/Signals";
 
 
 
@@ -28,6 +29,7 @@ function App() {
         }
         
         <Route path="/Register" element={ <Register /> }  />
+        <Route path="/Signals" element={ <Signals /> }  />
         <Route path="/Login" element={ <Login /> } />
       </Routes>
 
