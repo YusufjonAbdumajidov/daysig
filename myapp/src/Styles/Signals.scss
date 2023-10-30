@@ -2,8 +2,28 @@
 
 .signalsContainer{
     border: 1px solid #fff;
-    padding:   6%;
+    padding: 3%  6%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     font-family: 'Kanit', sans-serif;
+    div{
+        width: 400px;
+        margin: 20px;
+        position: relative;
+        border: 1px solid #fff;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background: transparent;
+        color: #fff;
+        header{
+            display: flex;
+        }
+        main{
+            display: flex;
+            flex-direction: row;
+        }
+    }
 }
