@@ -15,15 +15,39 @@
         border: 1px solid #fff;
         display: flex;
         flex-direction: column;
-        padding: 20px;
+        padding: 0px 20px 20px 20px;
         background: transparent;
         color: #fff;
         header{
             display: flex;
+            background: transparent;
+            // border: 1px solid #fff;
+            // margin-top: 0;
+            padding: 0 0;
+            section{
+                // border: 1px solid #fff;
+                padding: 0;
+            }
+            section{
+                button{
+                    padding: 8px 24px;
+                    cursor: pointer;
+                    outline: none;
+                    color: #fff;
+                    border: none;
+                    border-radius: 8px;
+                    background-color: rgb(49, 50, 50);
+                    &:nth-child(1){
+                        margin-right: 10px;
+                    }
+                }
+            }
         }
         main{
             display: flex;
             flex-direction: row;
+            background: transparent;
+            padding: 0 0;
         }
     }
 }
