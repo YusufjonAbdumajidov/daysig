@@ -7,7 +7,7 @@ const Navbar = () => {
     const [ showDropdown, setShowDropdown ] = useState(false);
   return (
     <header>
-        <div className="logo"> <Link to="/" className='logoInside'><img src={logoImage} alt="" /></Link> </div>
+        <div className="logo"> <Link to="/" className='logoInside'>DAYSIG</Link> </div>
         <nav style={{background: "transparent"}}>
             <ul >
                 <li>about</li>
