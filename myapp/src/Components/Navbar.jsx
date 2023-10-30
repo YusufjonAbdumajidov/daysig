@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="logo"> <Link to="/" className='logoInside'>DAYSIG</Link> </div>
         <nav style={{background: "transparent"}}>
             <ul >
-                <li>about</li>
+                <li><a href="#about">about</a> </li>
                 <li>signals</li>
                
                 <div className="dropdown">
