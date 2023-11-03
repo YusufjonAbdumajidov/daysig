@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { AiFillCaretDown } from "react-icons/ai";
 
 const Signals = () => {
   return <>
@@ -25,7 +26,7 @@ const Signals = () => {
                     <p>Exit Date/Time:</p>
                     <span>08-12-21 9:40 AM</span>
                     <p>Profit:</p>
-                    <span>up $200  down 20%</span>
+                    <span>up $200  <AiFillCaretDown className='downIcon'  />  20%</span>
                 </section>
             </main>
         </div>
@@ -51,7 +52,7 @@ const Signals = () => {
                     <p>Exit Date/Time:</p>
                     <span>08-12-21 9:40 AM</span>
                     <p>Profit:</p>
-                    <span>up $200  down 20%</span>
+                    <span>up $200  <AiFillCaretDown className='downIcon' /> 20%</span>
                 </section>
             </main>
         </div>
