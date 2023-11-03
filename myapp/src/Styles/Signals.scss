@@ -46,11 +46,15 @@ $backgroundColor: rgb(23, 23, 23);
                     outline: none;
                     color: #fff;
                     border: none;
-                    border-radius: 8px;
+                    border-radius: 4px;
                     letter-spacing: 1px;
                     background-color: rgb(49, 50, 50);
+                    transition: all .4s;
                     &:nth-child(1){
                         margin-right: 10px;
+                    }
+                    &:hover{
+                        background-color: #00329F;
                     }
                 }
             }
@@ -64,12 +68,12 @@ $backgroundColor: rgb(23, 23, 23);
             section{
                 background-color:$backgroundColor ;
                 p{
-                    margin-top: 6px;
+                    margin-top: 7px;
                     background-color:$backgroundColor ;
                     color: rgb(150, 150, 150);
                 }
                 span{
-                    margin-top: 4px;
+                    // margin-top: 2px;
                     background-color:$backgroundColor ;
                     display: flex;
                     align-items: center;
@@ -77,12 +81,14 @@ $backgroundColor: rgb(23, 23, 23);
                         background-color:$backgroundColor ;
                         font-size: 20px;
                         color: rgb(15, 213, 15);
+                        margin-right: 2px;
                     }
                     .downIcon{
                         background-color:$backgroundColor ;
                         margin-left: 8px;
                         font-size: 20px;
                         color: rgb(254, 36, 36);
+                        margin-right: 2px;
                     }
                 }
             }
