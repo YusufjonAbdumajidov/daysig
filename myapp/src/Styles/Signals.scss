@@ -71,6 +71,19 @@ $backgroundColor: rgb(23, 23, 23);
                 span{
                     margin-top: 4px;
                     background-color:$backgroundColor ;
+                    display: flex;
+                    align-items: center;
+                    .upIcon{
+                        background-color:$backgroundColor ;
+                        font-size: 20px;
+                        color: rgb(15, 213, 15);
+                    }
+                    .downIcon{
+                        background-color:$backgroundColor ;
+                        margin-left: 8px;
+                        font-size: 20px;
+                        color: rgb(254, 36, 36);
+                    }
                 }
             }
         }
