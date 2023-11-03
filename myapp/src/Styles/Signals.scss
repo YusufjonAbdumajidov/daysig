@@ -16,7 +16,7 @@
         display: flex;
         flex-direction: column;
         padding: 0px 20px 20px 20px;
-        background: transparent;
+        background: rgb(34, 34, 34);
         color: #fff;
         header{
             display: flex;
@@ -48,6 +48,15 @@
             flex-direction: row;
             background: transparent;
             padding: 0 0;
+            letter-spacing: 1px ;
+            section{
+                p{
+                    margin-top: 6px;
+                }
+                span{
+                    margin-top: 4px;
+                }
+            }
         }
     }
 }
