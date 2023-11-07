@@ -95,3 +95,18 @@ $backgroundColor: rgb(23, 23, 23);
         }
     }
 }
+
+
+.coinsContainer{
+    padding: 3%  6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Kanit', sans-serif;
+    section{
+        border: 1px solid #fff;
+        width: 100%;
+        display: flex;
+    }
+}
