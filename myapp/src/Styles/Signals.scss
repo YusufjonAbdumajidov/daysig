@@ -102,6 +102,7 @@ $backgroundColor: rgb(23, 23, 23);
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
     font-family: 'Kanit', sans-serif;
     section{
@@ -112,5 +113,6 @@ $backgroundColor: rgb(23, 23, 23);
         padding: 14px;
         border-radius: 4px;
         justify-content: space-between;
+        margin: 6px 0;
     }
 }

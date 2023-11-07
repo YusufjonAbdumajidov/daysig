@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
+import { AiFillCaretDown, AiFillCaretUp, AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
 
 const Signals = () => {
   return <>
@@ -247,7 +247,28 @@ const Signals = () => {
             <p>323.244.26567 USDC</p>
             <p>$23.000</p>
             <p>chart</p>
-            <p>drop, up</p>
+            <p>< AiOutlineArrowDown /></p>
+        </section>
+        <section>
+            <p>coin</p>
+            <p>323.244.26567 USDC</p>
+            <p>$23.000</p>
+            <p>chart</p>
+            <p>< AiOutlineArrowUp /></p>
+        </section>
+        <section>
+            <p>coin</p>
+            <p>323.244.26567 USDC</p>
+            <p>$23.000</p>
+            <p>chart</p>
+            <p>< AiOutlineArrowUp /></p>
+        </section>
+        <section>
+            <p>coin</p>
+            <p>323.244.26567 USDC</p>
+            <p>$23.000</p>
+            <p>chart</p>
+            <p>< AiOutlineArrowDown /></p>
         </section>
     </div>
     </>
