@@ -241,6 +241,15 @@ const Signals = () => {
             </main>
         </div>
     </div>
+    <div className="coinsContainer">
+        <section>
+            <p>coin</p>
+            <p>323.244.26567 USDC</p>
+            <p>$23.000</p>
+            <p>chart</p>
+            <p>drop, up</p>
+        </section>
+    </div>
     </>
 }
 
