@@ -106,15 +106,21 @@ $backgroundColor: rgb(23, 23, 23);
     flex-wrap: wrap;
     font-family: 'Kanit', sans-serif;
     section{
-        border: 1px solid #fff;
+        // border: 1px solid #fff;
         width: 100%;
         display: flex;
         color: #fff;
         padding: 14px;
         border-radius: 4px;
         justify-content: space-between;
-        margin: 6px 0;
+        margin: 4px 0;
+        background-color: #151515;
         p{
+            background-color: #151515;
+            .chartIcon{
+                background-color: #151515;
+                margin-left: 6px;   
+            }
             &:nth-child(5){
                 display: flex;
                 align-items: center;
