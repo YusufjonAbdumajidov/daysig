@@ -115,6 +115,10 @@ $backgroundColor: rgb(23, 23, 23);
         justify-content: space-between;
         margin: 4px 0;
         background-color: #151515;
+        img{
+            height: 36px;
+            background-color: #151515;
+        }
         p{
             background-color: #151515;
             .chartIcon{

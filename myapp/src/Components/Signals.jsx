@@ -1,6 +1,9 @@
 import React from 'react';
 import { AiFillCaretDown, AiFillCaretUp, AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
-import bitcoinImage from "../assets/"
+import bitcoinImage from "../assets/bitcoin.png"
+import dogeCoin from "../assets/dogeCoin.png";
+import ethereumCoin from "../assets/ethereum.png";
+import tetherCoin from "../assets/tether.png";
 
 const Signals = () => {
   return <>
@@ -244,28 +247,28 @@ const Signals = () => {
     </div>
     <div className="coinsContainer">
         <section>
-            <p>coin</p>
+            <img src={bitcoinImage} alt="" />
             <p>323.244.26567 USDC</p>
             <p>$23.000</p>
             <p>chart</p>
             <p>1.23 < AiOutlineArrowDown className='chartIcon' /></p>
         </section>
         <section>
-            <p>coin</p>
+            <img src={ethereumCoin} alt="" />
             <p>323.244.26567 USDC</p>
             <p>$23.000</p>
             <p>chart</p>
             <p>3.67 < AiOutlineArrowUp className='chartIcon' /></p>
         </section>
         <section>
-            <p>coin</p>
+            <img src={tetherCoin} alt="" />
             <p>323.244.26567 USDC</p>
             <p>$23.000</p>
             <p>chart</p>
             <p>5.78 < AiOutlineArrowUp  className='chartIcon' /></p>
         </section>
         <section>
-            <p>coin</p>
+            <img src={dogeCoin} alt="" />
             <p>323.244.26567 USDC</p>
             <p>$23.000</p>
             <p>chart</p>

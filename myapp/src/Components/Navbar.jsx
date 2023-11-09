@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BsChevronDown } from "react-icons/bs";
 import { Link } from 'react-router-dom';
-import logoImage from "../assets/logo.png";
+
 
 const Navbar = () => {
     const [ showDropdown, setShowDropdown ] = useState(false);
