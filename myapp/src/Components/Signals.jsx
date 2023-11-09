@@ -1,5 +1,6 @@
 import React from 'react';
 import { AiFillCaretDown, AiFillCaretUp, AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
+import bitcoinImage from "../assets/"
 
 const Signals = () => {
   return <>
