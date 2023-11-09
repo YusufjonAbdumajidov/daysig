@@ -114,5 +114,11 @@ $backgroundColor: rgb(23, 23, 23);
         border-radius: 4px;
         justify-content: space-between;
         margin: 6px 0;
+        p{
+            &:nth-child(5){
+                display: flex;
+                align-items: center;
+            }
+        }
     }
 }

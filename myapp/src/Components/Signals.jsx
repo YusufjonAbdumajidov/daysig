@@ -247,28 +247,28 @@ const Signals = () => {
             <p>323.244.26567 USDC</p>
             <p>$23.000</p>
             <p>chart</p>
-            <p>< AiOutlineArrowDown /></p>
+            <p>1.23 < AiOutlineArrowDown /></p>
         </section>
         <section>
             <p>coin</p>
             <p>323.244.26567 USDC</p>
             <p>$23.000</p>
             <p>chart</p>
-            <p>< AiOutlineArrowUp /></p>
+            <p>3.67 < AiOutlineArrowUp /></p>
         </section>
         <section>
             <p>coin</p>
             <p>323.244.26567 USDC</p>
             <p>$23.000</p>
             <p>chart</p>
-            <p>< AiOutlineArrowUp /></p>
+            <p>5.78 < AiOutlineArrowUp /></p>
         </section>
         <section>
             <p>coin</p>
             <p>323.244.26567 USDC</p>
             <p>$23.000</p>
             <p>chart</p>
-            <p>< AiOutlineArrowDown /></p>
+            <p>9.56 < AiOutlineArrowDown /></p>
         </section>
     </div>
     </>
