@@ -119,12 +119,22 @@ $backgroundColor: rgb(23, 23, 23);
             height: 36px;
             background-color: #151515;
         }
+        &:nth-child(2){
+                p{
+                    &:nth-child(5){
+                        color: rgb(43, 211, 74);
+                        display: flex;
+                        align-items: center;
+                    } 
+                }
+        }
         p{
             background-color: #151515;
             .chartIcon{
                 background-color: #151515;
                 margin-left: 6px;   
             }
+            
             &:nth-child(5){
                 color: rgb(211, 43, 43);
                 display: flex;
