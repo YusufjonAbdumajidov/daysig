@@ -267,13 +267,13 @@ const Signals = () => {
             <p>chart</p>
             <p>5.78% < AiOutlineArrowUp  className='chartIcon' /></p>
         </section>
-        <section>
+        {/* <section>
             <img src={dogeCoin} alt="" />
             <p>323.244.26567 USDC</p>
             <p>$23.000</p>
             <p>chart</p>
             <p>9.56% < AiOutlineArrowDown className='chartIcon' /></p>
-        </section>
+        </section> */}
     </div>
     </>
 }
